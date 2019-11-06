@@ -86,7 +86,7 @@ public class User {
   - JSON으로 요청을 받고, XML로 응답하는 코드
   - 실행시 HttpMediaTypeNotAcceptableException 메시지가 나타난다면, MediaType을 처리할 HttpMessageConverter가 없는것.
   - 기본은 HttpMessageConvertersAutoConfiguration이 처리함
-  - https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml dependency 추가
+  - <https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml> dependency 추가
   
   ```code
   * UserControllerTest.java
@@ -105,3 +105,152 @@ public class User {
   }
 
   ``
+
+### 3.Static resource support
+
+- SpringBoot Web MVC 가 제공하는 정적 리소스 지원기능
+  - 정적 리소스 맵핑 “ /**”
+- 기본 리소스 위치
+  - classpath:/static
+  - classpath:/public
+  - classpath:/resources/
+  - classpath:/META-INF/resources
+  - 예) “/hello.html” => /static/hello.html
+- spring.mvc.static-path-pattern: 맵핑 설정 변경 가능
+- spring.mvc.static-locations: 리소스 찾을 위치 변경 가능
+- 지정된 static경로부터만 읽게 할 경우
+
+```code
+* application.properties
+
+spring.mvc.static-path-pattern=/static/**
+```  
+
+- WebMvcConfigurer의 addResourceHandlers 로 커스터마이징 가능  
+
+```code
+@Override
+public void addResourceHandlers(ResourceHandlerRegistry registry) {
+  registry.addResourceHandler("/m/**")
+    .addResourceLocations("classpath:/m/")
+    .setCachePeriod(20); //별도의 캐싱옵션 지정
+```
+
+### 4.웹 JAR
+
+- jquery나 bootstrap을 jar로 dependency에 추가하여 리소스를 참고할 수 있도록 할 수 있음
+  - <https://mvnrepository.com/artifact/org.webjars.bower/jquery/3.4.1>
+
+  ```code
+    <script src="webjars/jquery/3.4.1/dist/jquery.min.js"></script>
+    <script>
+    $(function() {
+        console.log("ready!");
+    });
+    </script>
+  ```
+
+### 5.Spring HATEOS
+
+- Hypermedia As The Engine Of Application State
+- 서버: 현재 리소스와 연관된 링크 정보를 클라이언트에게 제공한다.
+- 클라이언트: 연관된 링크 정보를 바탕으로 리소스에 접근한다.
+- 연관된 링크 정보
+  - Relation
+  - Hypertext Reference)
+- <https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-hateoas/2.2.0.RELEASE> dependency 추가
+
+```code
+* SampleControllerTest.java
+
+@WebMvcTest(SampleController.class)
+public class SampleControllerTest {
+
+  @Autowired
+  MockMvc mockMvc;
+
+  @Test
+  public void helloSample() throws Exception {
+    mockMvc.perform(get("/helloSample"))
+        .andExpect(status().isOk())
+        .andExpect(jsonPath("$._links.self").exists());
+  }
+
+}
+
+* SampleController.java
+
+@RestController
+public class SampleController {
+
+  @GetMapping("/helloSample")
+  public EntityModel helloSample() {
+    Hello hello = new Hello();
+    hello.setPrefix("hey, ");
+    hello.setName("bk");
+
+    EntityModel helloEntityModel = new EntityModel<>(hello);
+    helloEntityModel.add(linkTo(methodOn(SampleController.class).helloSample()).withSelfRel());
+
+    return helloEntityModel;
+  }
+
+}
+
+```
+
+- EntityModel에 담긴 값을 확인하면 관련된 링크정보가 리소스에 담겨있고, 클라이언트도 해당 리소스를 사용할 수 있게 됨 -> HATEOS의 기본
+
+- Object Mapper 제공 (객체 <-> JSON)
+  - ObjectMapper가 내장되어있음
+  - Custom이 필요한 경우 spring.jackson.* / Jackson2ObjectMapperBuilder 사용
+
+- LinkDiscovers 제공
+  - xPath를 확장해서 만든 HATEOS용 Client API
+  - 클라이언트 쪽에서 링크 정보를 Rel 이름으로 찾을때 사용할 수 있는 XPath 확장 클래스
+
+### 6.CORS
+
+- Cross-Origin Resource Sharing
+- Origin?
+  - URI 스키마 (http, https)
+  - hostname (testurl.com, localhost)
+  - 포트 (8080, 18080)
+- SpringBoot에서는 @CrossOrigin으로 간단하게 설정을 할 수 있게 됨
+
+- 해당 method만 허용하는 경우
+
+```code
+
+@CrossOrigin(origins = "http://localhost:18080")
+@GetMapping("/helloSample")
+  public EntityModel helloSample() {
+    Hello hello = new Hello();
+    hello.setPrefix("hey, ");
+    hello.setName("bk");
+
+    EntityModel helloEntityModel = new EntityModel<>(hello);
+    helloEntityModel.add(linkTo(methodOn(SampleController.class).helloSample()).withSelfRel());
+
+    return helloEntityModel;
+  }
+
+
+```
+
+- 별도의 설정파일을 만드는 경우
+
+```code
+* WebConfig.java
+
+@Configuration
+public class WebConfig implements WebMvcConfigurer {
+
+  @Override
+  public void addCorsMappings(CorsRegistry registry) {
+    registry.addMapping("/**")
+        .allowedOrigins("http://localhost:18080");
+  }
+}
+
+```  
