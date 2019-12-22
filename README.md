@@ -29,3 +29,7 @@
 - [1.20191116_KSUG_더자바(코드를 테스트하는 다양한 방법)_백기선.md](https://github.com/byungkyu-ju/garage/blob/master/seminar/20191116_KSUG/1.20191116_KSUG_%EB%8D%94%EC%9E%90%EB%B0%94(%EC%BD%94%EB%93%9C%EB%A5%BC%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95)_%EB%B0%B1%EA%B8%B0%EC%84%A0.md)
 - [2.20191116_KSUG_자바한정_null서바이벌가이드_박성철.md](https://github.com/byungkyu-ju/garage/blob/master/seminar/20191116_KSUG/2.20191116_KSUG_%EC%9E%90%EB%B0%94%ED%95%9C%EC%A0%95_null%EC%84%9C%EB%B0%94%EC%9D%B4%EB%B2%8C%EA%B0%80%EC%9D%B4%EB%93%9C_%EB%B0%95%EC%84%B1%EC%B2%A0.md)
 - [3.20191116_KSUG_잘키운모노리스하나열마이크로서비스안부럽다_박용권.md](https://github.com/byungkyu-ju/garage/blob/master/seminar/20191116_KSUG/3.20191116_KSUG_%EC%9E%98%ED%82%A4%EC%9A%B4%EB%AA%A8%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%95%98%EB%82%98%EC%97%B4%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%95%88%EB%B6%80%EB%9F%BD%EB%8B%A4_%EB%B0%95%EC%9A%A9%EA%B6%8C.md)
+
+## ETC
+
+-[기술질답10문항.md](https://github.com/byungkyu-ju/garage/blob/master/20191223_%EC%A3%BC%EB%B3%91%EA%B7%9C_%EA%B8%B0%EC%88%A0%EC%A7%88%EB%8B%B510%EB%AC%B8%ED%95%AD.md)
