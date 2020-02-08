@@ -30,6 +30,12 @@
 - [2.20191116_KSUG_자바한정_null서바이벌가이드_박성철.md](https://github.com/byungkyu-ju/garage/blob/master/seminar/20191116_KSUG/2.20191116_KSUG_%EC%9E%90%EB%B0%94%ED%95%9C%EC%A0%95_null%EC%84%9C%EB%B0%94%EC%9D%B4%EB%B2%8C%EA%B0%80%EC%9D%B4%EB%93%9C_%EB%B0%95%EC%84%B1%EC%B2%A0.md)
 - [3.20191116_KSUG_잘키운모노리스하나열마이크로서비스안부럽다_박용권.md](https://github.com/byungkyu-ju/garage/blob/master/seminar/20191116_KSUG/3.20191116_KSUG_%EC%9E%98%ED%82%A4%EC%9A%B4%EB%AA%A8%EB%85%B8%EB%A6%AC%EC%8A%A4%ED%95%98%EB%82%98%EC%97%B4%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4%EC%95%88%EB%B6%80%EB%9F%BD%EB%8B%A4_%EB%B0%95%EC%9A%A9%EA%B6%8C.md)
 
+## 6.모던 자바 인 액션
+
+- [1.자바 8,9,10,11 : 무슨 일이 일어나고 있는가?](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/1%EC%9E%A5-%EC%9E%90%EB%B0%94%208%2C%209%2C%2010%2C%2011%20%EB%AC%B4%EC%8A%A8%20%EC%9D%BC%EC%9D%B4%20%EC%9D%BC%EC%96%B4%EB%82%98%EA%B3%A0%20%EC%9E%88%EB%8A%94%EA%B0%80.md)
+- [2.동작 파라미터화 코드 전달하기](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/2%EC%9E%A5-%EB%8F%99%EC%9E%91%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%ED%99%94%20%EC%BD%94%EB%93%9C%20%EC%A0%84%EB%8B%AC%ED%95%98%EA%B8%B0.md)
+- [3.람다표현식](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/3%EC%9E%A5-%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md)
+- [4.스트림소개](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/4%EC%9E%A5-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%86%8C%EA%B0%9C.md)
 ## ETC
 
 -[기술질답10문항.md](https://github.com/byungkyu-ju/garage/blob/master/20191223_%EC%A3%BC%EB%B3%91%EA%B7%9C_%EA%B8%B0%EC%88%A0%EC%A7%88%EB%8B%B510%EB%AC%B8%ED%95%AD.md)
