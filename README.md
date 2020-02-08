@@ -36,6 +36,7 @@
 - [2.동작 파라미터화 코드 전달하기](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/2%EC%9E%A5-%EB%8F%99%EC%9E%91%20%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%ED%99%94%20%EC%BD%94%EB%93%9C%20%EC%A0%84%EB%8B%AC%ED%95%98%EA%B8%B0.md)
 - [3.람다표현식](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/3%EC%9E%A5-%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md)
 - [4.스트림소개](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/4%EC%9E%A5-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%86%8C%EA%B0%9C.md)
+- [5.스트림활용](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/5%EC%9E%A5-%EC%8A%A4%ED%8A%B8%EB%A6%BC%ED%99%9C%EC%9A%A9.md)
 ## ETC
 
 -[기술질답10문항.md](https://github.com/byungkyu-ju/garage/blob/master/20191223_%EC%A3%BC%EB%B3%91%EA%B7%9C_%EA%B8%B0%EC%88%A0%EC%A7%88%EB%8B%B510%EB%AC%B8%ED%95%AD.md)
