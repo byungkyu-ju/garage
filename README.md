@@ -37,6 +37,20 @@
 - [3.람다표현식](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/3%EC%9E%A5-%EB%9E%8C%EB%8B%A4%ED%91%9C%ED%98%84%EC%8B%9D.md)
 - [4.스트림소개](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/4%EC%9E%A5-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%86%8C%EA%B0%9C.md)
 - [5.스트림활용](https://github.com/byungkyu-ju/garage/blob/master/book/%EB%AA%A8%EB%8D%98%EC%9E%90%EB%B0%94%EC%9D%B8%EC%95%A1%EC%85%98/5%EC%9E%A5-%EC%8A%A4%ED%8A%B8%EB%A6%BC%ED%99%9C%EC%9A%A9.md)
+
+## 7.코드를 조작하는 다양한 방법
+
+- [1.JVM이해하기](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95/1.JVM%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md)
+- [2.바이트코드조작](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95/2.%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C%EC%A1%B0%EC%9E%91.md)
+- [3.리플랙션](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95/3.%EB%A6%AC%ED%94%8C%EB%9E%99%EC%85%98.md)
+- [4.다이나믹프록시](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95/4.%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9%ED%94%84%EB%A1%9D%EC%8B%9C.md)
+- [5.어노테이션프로세서](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95/5.%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C.md)
+
+## 8. 코드를 테스트하는 다양한 방법
+
+- [1.JUnit](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%BD%94%EB%93%9C%EB%A5%BC%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95/1.JUnit.md)
+- [2.Mockito](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%BD%94%EB%93%9C%EB%A5%BC%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95/2.Mockito.md)
+
 ## ETC
 
 -[기술질답10문항.md](https://github.com/byungkyu-ju/garage/blob/master/20191223_%EC%A3%BC%EB%B3%91%EA%B7%9C_%EA%B8%B0%EC%88%A0%EC%A7%88%EB%8B%B510%EB%AC%B8%ED%95%AD.md)
