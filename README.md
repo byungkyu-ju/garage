@@ -53,10 +53,19 @@
 
 ## 9.자바ORM표준JPA프로그래밍-기본편
 
-- [1.JPA소개](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/1.JPA%EC%86%8C%EA%B0%9C.md)
-- [2.JPA시작하기](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/2.JPA%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
-- [3.영속성컨텍스트](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/3.%EC%98%81%EC%86%8D%EC%84%B1%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
-- [4.엔티티매핑](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/4.%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A7%A4%ED%95%91.md)
+- [01.JPA소개](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/01.JPA%EC%86%8C%EA%B0%9C.md)
+- [02.JPA시작하기](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/02.JPA%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)
+- [03.영속성컨텍스트](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/03.%EC%98%81%EC%86%8D%EC%84%B1%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
+- [04.엔티티매핑](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/04.%EC%97%94%ED%8B%B0%ED%8B%B0%EB%A7%A4%ED%95%91.md)
+- [05.연관관계 매핑](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/05.%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%EB%A7%A4%ED%95%91.md)
+- [06.다양한 연관관계 매핑](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/06.%EB%8B%A4%EC%96%91%ED%95%9C%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%EB%A7%A4%ED%95%91.md)
+- [07.상속관계 매핑](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/07.%EC%83%81%EC%86%8D%EA%B4%80%EA%B3%84%EB%A7%A4%ED%95%91.md)
+- [08.프록시](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/08.%ED%94%84%EB%A1%9D%EC%8B%9C.md)
+- [09.즉시로딩과 지연로딩](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/09.%EC%A6%89%EC%8B%9C%EB%A1%9C%EB%94%A9%EA%B3%BC%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9.md)
+- [10.영속성전이와 고아객체](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/10.%EC%98%81%EC%86%8D%EC%84%B1%EC%A0%84%EC%9D%B4%EC%99%80%EA%B3%A0%EC%95%84%EA%B0%9D%EC%B2%B4.md)
+- [11.값타입](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/11.%EA%B0%92%ED%83%80%EC%9E%85.md)
+- [12.객체지향 쿼리언어 기본문법](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/12.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%BF%BC%EB%A6%AC%EC%96%B8%EC%96%B4_%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95.md)
+- [13.객체지향 쿼리언어 중급문법](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/13.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%BF%BC%EB%A6%AC%EC%96%B8%EC%96%B4_%EC%A4%91%EA%B8%89%EB%AC%B8%EB%B2%95.md)
 
 ## ETC
 
