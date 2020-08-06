@@ -67,6 +67,15 @@
 - [12.객체지향 쿼리언어 기본문법](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/12.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%BF%BC%EB%A6%AC%EC%96%B8%EC%96%B4_%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95.md)
 - [13.객체지향 쿼리언어 중급문법](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%9E%90%EB%B0%94ORM%ED%91%9C%EC%A4%80JPA%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EA%B8%B0%EB%B3%B8%ED%8E%B8/13.%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%BF%BC%EB%A6%AC%EC%96%B8%EC%96%B4_%EC%A4%91%EA%B8%89%EB%AC%B8%EB%B2%95.md)
 
+## 10.실전_QueryDSL
+
+- [1.querydsl 설정](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%8B%A4%EC%A0%84_%20Querydsl/01_querydsl%20%EC%84%A4%EC%A0%95.md)
+- [2.Querydsl 조건문_정렬_집합_조인_서브쿼리_case](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%8B%A4%EC%A0%84_%20Querydsl/02_%EC%A1%B0%EA%B1%B4%EB%AC%B8_%EC%A0%95%EB%A0%AC_%EC%A7%91%ED%95%A9_%EC%A1%B0%EC%9D%B8_%EC%84%9C%EB%B8%8C%EC%BF%BC%EB%A6%AC_case.md)
+- [3.중급문법](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%8B%A4%EC%A0%84_%20Querydsl/03_%EC%A4%91%EA%B8%89%EB%AC%B8%EB%B2%95.md)
+- [4.프로젝트](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%8B%A4%EC%A0%84_%20Querydsl/04_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.md)
+- [5.사용자정의리포지토리](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%8B%A4%EC%A0%84_%20Querydsl/05_%EC%82%AC%EC%9A%A9%EC%9E%90%EC%A0%95%EC%9D%98%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC.md)
+- [6.querydsl 페이징](https://github.com/byungkyu-ju/garage/blob/master/lecture/%EC%8B%A4%EC%A0%84_%20Querydsl/06_querydsl_%ED%8E%98%EC%9D%B4%EC%A7%95.md)
+
 ## ETC
 
 -[기술질답10문항.md](https://github.com/byungkyu-ju/garage/blob/master/20191223_%EC%A3%BC%EB%B3%91%EA%B7%9C_%EA%B8%B0%EC%88%A0%EC%A7%88%EB%8B%B510%EB%AC%B8%ED%95%AD.md)
